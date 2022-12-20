@@ -130,7 +130,7 @@ h2 {
       left: 0;
       flex-direction: column;
       width: 100%;
-      margin-left: -13%;
+      margin-left: 0;
       /* justify-content: center;
       align-items: center; */
     }
@@ -161,7 +161,7 @@ h2 {
     }
     .menu-button-container{
       position: relative;
-      left: -13%;
+      left: 3%;
     }
   }
 
@@ -187,7 +187,7 @@ h2 {
   }
     #btn{
         position: relative;
-        right: 23%;
+        right: 0;
     }
     .logo img{
       width: 100px;
@@ -268,6 +268,7 @@ h2 {
 @media (max-width: 384px){
     .image-box img{
         display: none;
+        
     }
 }
 
@@ -364,11 +365,12 @@ section{
 
 @media (max-width: 384px){
     .skill{
-        margin-top: -20vh;
+        margin-top: 10vh;
         width: 80%;
+        margin-left: 50%;
     }
     .third{
-        margin-top: 300vh;
+        margin-top: 350vh;
         width: 100%;
     }
     .skills-bar .bar .progress-line {
@@ -764,10 +766,12 @@ footer  img {
     width: 44px;
     height: 40px;
 }
-@media only screen and (max-width: 384px){
+@media (max-width: 384px){
   
     footer{
         margin-top: 125vh;
+        margin-left: 50%;
+        width: 100%;
     }
     .wrapper{width: 132%;
     height: 20vh;}
@@ -777,4 +781,24 @@ footer  img {
     height: 20vh;}
     .fifth{width: 132%;
     height: 20vh;}
+}
+
+@media (max-width: 384px){
+  .content{
+    width: 100%;
+    margin-left: 30%;
+  }
+  .education{
+    margin-left: 30%;
+  }
+  .gallery{
+    margin-left: 10%;
+    width: 100%;
+  }
+  .info-wrap{
+    margin-left: 50%;
+  }
+  .form-wrap{
+    margin-left: 50%;
+  }
 }
